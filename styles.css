@@ -1,0 +1,61 @@
+@import url("http://overpass-30e2.kxcdn.com/overpass.css");
+* { font-family: Overpass; }
+
+/* Palette: http://paletton.com/palette.php?uid=1000u0k00pC00Tw00vG01kc0oeu */
+
+.container {
+}
+
+.timeline {
+}
+
+.question-container {  /* changed from _ to - */
+    padding: 2em;
+    margin: 2em;
+    background-color: #FCFCFC; /* E4E4E4, FFFFFF should be the background */
+    /*border-style: solid;
+    border-width: 1px;  /* Drop this? 
+    border-color: #A1A1A1; */
+}
+
+#Q-bit {  /* Changed from _ to - */
+    font-weight: bold;
+    font-size: xx-large;
+    white-space: nowrap;
+    display:inline-block;
+}
+
+#top-left-item {
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+#next_link {
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+
+.question-box {
+    
+}
+
+#Q-image {
+    background-image: url("placeholder.JPG");
+    height: 360px;
+    width: 720px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: auto; margin-right: auto;
+}
+
+.btn-desktop {
+    margin: 1em 5em;
+    padding: 1em;  /* changes space between button walls and text */
+}
+
+.btn-desktop-group {
+    text-align:center;
+    margin: auto;
+}
